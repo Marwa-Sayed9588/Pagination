@@ -1,0 +1,24 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#item-list {
+    margin-bottom: 20px;
+}
+
+.page {
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #007BFF;
+    padding: 5px 10px;
+    color: #007BFF;
+    border-radius: 5px;
+}
+
+.page.active {
+    background-color: #007BFF;
+    color: white;
+}
